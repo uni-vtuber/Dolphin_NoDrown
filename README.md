@@ -13,6 +13,10 @@ Have you ever named a dolphin and worried about it getting stuck and suffocating
 - **Server-Friendly:** Works on both single-player worlds and multiplayer servers.
 - **No Visible Particles:** The effect is applied silently without any distracting potion particles.
 
+## ⚠️ Limitations
+
+- This data pack only prevents suffocation from being underwater. To respect vanilla game mechanics, it does **not** prevent dolphins from taking damage when they are beached on land.
+
 ## ⚙️ How It Works
 
 This data pack uses a function that runs on every game tick.
