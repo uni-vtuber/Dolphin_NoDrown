@@ -37,6 +37,12 @@ This command specifically targets dolphins that have a name (`name=!""]`) and gi
 4. Place the downloaded `.zip` file into the `datapacks` folder.
 5. If you are in the world, run the command `/reload`. If you are starting a new world, the data pack will be enabled automatically.
 
+## 🗑️ Uninstall
+
+To uninstall, simply remove the data pack file from the `datapacks` folder and run `/reload`.
+
+This data pack does not require a special uninstall command. It only applies a temporary effect to dolphins and does not make any permanent changes to your world (such as creating scoreboards or tags). The effect will wear off naturally once the data pack is removed.
+
 ## 📝 Compatibility
 
 This data pack is designed for **Minecraft: Java Edition 1.21.8 (`pack_format: 81`). It may work with other versions, but compatibility is not guaranteed.
