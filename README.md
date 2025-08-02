@@ -1,5 +1,7 @@
 # Dolphin No Drown
 
+[日本語版はこちら](README_ja.md)
+
 A simple Minecraft data pack that prevents your pet dolphins from suffocating.
 
 ## 📖 Description
