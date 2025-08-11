@@ -2,7 +2,7 @@
 
 [日本語版はこちら](README_ja.md)
 
-A simple Minecraft data pack that prevents your pet dolphins from suffocating.
+- simple Minecraft data pack that prevents your pet dolphins from suffocating.
 
 ## 📖 Description
 
@@ -21,15 +21,7 @@ Have you ever named a dolphin and worried about it getting stuck and suffocating
 
 ## ⚙️ How It Works
 
-This data pack uses a function that runs on every game tick.
-
-The function executes the following command:
-
-```mcfunction
-effect give @e[type=minecraft:dolphin,name=!""] minecraft:water_breathing 2 0 true
-```
-
-This command specifically targets dolphins that have a name (`name=!""]`) and gives them the `water_breathing` effect for 2 seconds. Since it runs every tick, the effect is constantly refreshed.
+This data pack uses a function that runs every game tick (20 times per second). This function identifies all dolphins that have been given a name and applies a brief, invisible Water Breathing effect to them. Because this check and effect application happens constantly, the named dolphins effectively have permanent water breathing, preventing them from drowning without creating any visual distractions like potion particles.
 
 ## 🛠️ Installation
 
